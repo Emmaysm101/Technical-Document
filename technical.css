@@ -1,0 +1,44 @@
+#main-doc {
+  font-family: 'Lora';
+}
+.ex-decoration {
+  background-color: silver;
+  display: block;
+  font-family: monospace !important;
+  height: 80px;
+  width: 500px;
+  text-align: justify;
+  font-size: 15px !important;
+  padding-top: 30px;
+}
+#navbar {
+  background-color:orange;
+  overflow-x: visible ;
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  padding-top: 20px;
+  padding-left: 10px;
+  display: block;
+  line-height: 1.5;
+}
+#navbar a {
+  float: left;
+  color: black;
+  text-align: left;
+  text-decoration:none;
+  font-size: 18px;
+}
+#main-section {
+  margin-left: 310px;
+  padding: 10px;
+  font-size: 16px;
+}
+@media(min-width: 600px) {
+  #main-section {
+    font-size: 19px;
+  }
+}
